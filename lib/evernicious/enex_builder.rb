@@ -30,9 +30,10 @@ module Evernicious
   
     def within_enex_note(content)
       builder = Nokogiri::XML::Builder.new do |xml|
-         xml.send('en-note'.to_sym){
-           xml.text(content)
-         }
+        xml.doc.create_internal_subset('en-note', nil,  "http://xml.evernote.com/pub/enml2.dtd")
+        xml.send('en-note'.to_sym){
+          xml.text(content)
+        }
       end 
       builder.to_xml  
     end 
