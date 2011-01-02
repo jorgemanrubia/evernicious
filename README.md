@@ -2,7 +2,7 @@
 
 Evernicious is a tool for converting del.icio.us bookmarks to Evernote notes.
 
-The del.icio.us bookmarks can be exported at the [official site](http://www.delicious.com/) in `html` format. Evernicious will take these bookmarks and generate a file that can be imported into Evernote using the official [Evernote client for Mac or Windows](http://www.evernote.com/about/intl/es/download/).
+The del.icio.us bookmarks can be exported at the [official site](http://www.delicious.com/). Evernicious will take these bookmarks and generate a file that can be imported into Evernote using the official [Evernote client for Mac or Windows](http://www.evernote.com/about/intl/es/download/).
 
 For each del.icio.us bookmark, it will generate an Evernote note. It will preserve tags and comments from del.icio.us bookmarks. Tags will be loaded into Evernote when the generated file is imported.
 
