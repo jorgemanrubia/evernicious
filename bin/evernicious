@@ -10,7 +10,7 @@ end
 begin
   puts "Converting '#{ARGV[0]}'..."
   Evernicious::Runner.generate_evernote_file(ARGV[0])
-  puts "Evernote notes file generated: '#{ARGV[0].enex}'"
+  puts "Evernote notes file generated: '#{ARGV[0]}.enex'"
 rescue Exception => e
   puts "Error: #{e.message}"
   exit 1
