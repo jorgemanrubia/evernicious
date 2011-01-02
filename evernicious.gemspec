@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bin/evernicious",
+    "evernicious.gemspec",
     "lib/.DS_Store",
     "lib/evernicious.rb",
     "lib/evernicious/.DS_Store",
