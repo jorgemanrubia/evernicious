@@ -20,14 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "jorge.manrubia@gmail.com"
   gem.authors = ["Jorge Manrubia"]
   
-  # Include your dependencies below. Runtime dependencies are required when using your gem,
-  # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  gem.add_runtime_dependency 'nokogiri', '> 1.4.3'
-  
-  gem.add_development_dependency 'rspec', '> 1.3.1'
-  gem.add_development_dependency 'bundler', '> 1.0.0'
-  gem.add_development_dependency 'jeweler', '> 1.5.2'
-  gem.add_development_dependency 'rcov', '> 0'
+
   
   gem.executables = ['evernicious']
 end
