@@ -18,7 +18,7 @@ It will generate a file `delicious-bookmarks-file.htm.enex` that can be imported
 
 ## How to import your del.icio.us bookmarks file into Evernote
 
-1. Export your del.icio.us bookmars using the [export bookmarks page](https://secure.delicious.com/settings/bookmarks/export) at the settings section of your [del.icio.us](http://www.delicious.com/) account. You will obtain a file with named something like `delicious-20110102.htm`.
+1. Export your del.icio.us bookmars using the official [export bookmarks page](https://secure.delicious.com/settings/bookmarks/export). You will obtain a file with named something like `delicious-20110102.htm`.
 2. Execute evernicious on the downloaded file. For example: `evernicious delicious-20110102.htm`. It will generate `delicious-20110102.htm.enex`
 3. In the Evernote desktop client, go to `File\Import notes from archive` and select the generated `.enex` file.
 
