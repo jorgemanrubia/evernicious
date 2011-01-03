@@ -42,9 +42,6 @@ module Evernicious
       delicious_date.strftime("%Y%m%dT%H%M%SZ") 
     end
   end 
-  
-  # bookmarks =  BookmarksParser.new.parse(File.open("d.htm", "r"))
-  # puts EnexBuilder.new.build_enex_document(bookmarks).to_xml(:encoding => 'UTF-8')
 end
   
 
